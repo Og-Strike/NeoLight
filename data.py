@@ -5,15 +5,15 @@ import pytz
 from pymongo import MongoClient
 
 # MongoDB Config
-MONGO_URI = "mongodb://localhost:27017/"
+MONGO_URI = ""   // put your MongoDB connection String
 client = MongoClient(MONGO_URI)
-db = client['neolight']
-collection = db['data']
+db = client['neolight']  // databasename 
+collection = db['data']  // collection name
 
 # Weather API Config
-API_KEY = "d046ee4e275e139630535c7d2a218b93"
-CITY = "New Delhi"
-COUNTRY = "IN"
+API_KEY = ""  // put your Open weather api key
+CITY = ""
+COUNTRY = ""
 
 # Fetch weather data
 def get_weather():
