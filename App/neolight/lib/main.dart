@@ -191,7 +191,7 @@ class _ControlPanelState extends State<ControlPanel>
     });
 
     try {
-      _db = Db("mongodb://127.0.0.1:27017/neolight");
+      _db = Db("your_mongodb_connection_string");
       await _db.open();
 
       if (_db.isConnected) {
