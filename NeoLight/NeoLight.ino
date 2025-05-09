@@ -23,9 +23,9 @@
 #define DEBOUNCE_TIME 200       // 200ms debounce for PIR sensors
 
 // WiFi Config
-const char* ssid = "strike";
-const char* password = "og_strike";
-const char* serverUrl = "http://192.168.127.244:3000";
+const char* ssid = ""; // your wifi name
+const char* password = "";  // your wifi password
+const char* serverUrl = ""; // your api link 
 const char* deviceId = "neo";
 
 // System State Structure
